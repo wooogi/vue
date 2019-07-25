@@ -1,0 +1,82 @@
+/* slick  Common */
+.slick-slider{position:relative;}
+.slick-slide a:focus{outline: none !important;}
+.slick-arrow{cursor:pointer;}
+.slick-arrow:focus{outline: none !important;}
+.slick-slide{float:left;}
+.slick-track{*zoom:1;}
+.slick-track:after{content:''; display:block; clear:both;}
+.slick-dots{text-align:center;}
+.slick-list{overflow:hidden;}
+.slick-slide:focus{outline: none !important;}
+
+.slick-dots li{display:inline-block; margin:0 6px; line-height:12px;}
+.slick-dots li button{ width:12px; height:12px; border:0; text-indent:-999px; padding:0; border-radius:12px;  background:#fff; vertical-align:top; overflow:hidden; box-sizing:border-box;}
+.slick-dots li.slick-active button{background:#999}
+.slick-dots li button:focus{outline: none !important;}
+.slick-arrow{border:0; background:none; text-indent:-9999px; overflow:hidden;}
+
+/* main */
+#container{}
+#mainVisual{}
+#mainVisual a{display:block; height:100%}
+#mainVisual .mainSlide{position:relative;}
+#mainVisual .slick-slide{height:650px}
+#mainVisual .slick-list{position:relative; z-index:1}
+#mainVisual .slick-dots{position: absolute; width:12px;bottom:auto;top:40%;left:50%;margin-left:580px; padding: 0; text-align: center; z-index:1}
+#mainVisual .slick-dots li{display:block;margin: 0 0 10px 0; }
+#mainVisual .slick-dots li button{ border:2px solid #fff; width:12px; height:12px; border-radius:100%; background:#ffffff; -webkit-transition: all 200ms ease-in-out; -moz-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; -khtml-transition: all 200ms ease-in-out; -ms-transition: all 200ms ease-in-out; transition: all 200ms ease-in-out; background:none;}
+#mainVisual .slick-dots li.slick-active button{background:#fff;}
+#container .innerWrap{position: relative; width: 1180px; margin: 0 auto;}
+#container .adpic_wideslide2{position: relative; width: 100%; height: auto; padding: 80px 0 120px; min-width: 1000px; margin: 0 auto;background: #fff;}
+    .adpic_wideslide2 .display_list{padding-right:280px;}
+    .adpic_wideslide2 h2{border: 0; padding: 0; margin: 0 0 25px 0; font-size: 42px; line-height: 44px; font-family: 'HelveticaNeue-Heavy'; color: #333;}
+    .adpic_wideslide2 .txt { display:block; padding:0 0 0 0; color:#1e1e1e; text-align:center; line-height:20px; }
+    .adpic_wideslide2 .txt a { display: block; margin: 0; text-decoration:none; }
+    .adpic_wideslide2 .txt .prdName{ display:block; padding: 0;  color:#333; line-height:22px;font-size:18px; max-height:40px; text-overflow:ellipsis; overflow:hidden;}
+    .adpic_wideslide2 .txt .shotdesc{ display:block; padding: 0; color:#8f8f8f; line-height:20px;  max-height:20px; font-size:14px; text-overflow:ellipsis; overflow:hidden; }
+    .adpic_wideslide2 .price { display:block; line-height:30px; margin-top:10px; padding: 0; text-align:center; color:#333;font-size:16px; }
+    .adpic_wideslide2 .prdimg{display:block;}
+    .adpic_wideslide2 .prdimg img{width:100%}
+    .adpic_wideslide2 .slick-dots{padding-top:20px}
+    .adpic_wideslide2 .slick-dots li button{width:12px;height:12px;background: url('http://www.lush.co.kr/data/skin/front/howling/img/etc/main_dot_on.png') no-repeat;}
+    .adpic_wideslide2 .slick-dots li.slick-active button{background: url('http://www.lush.co.kr/data/skin/front/howling/img/etc/main_dot_off.png') no-repeat;}
+    .adpic_wideslide2 .slick-dots li button:hover{ }
+    .adpic_wideslide2 .review{width:280px; position:absolute; right:0px; top:-160px; z-index:2}
+#container .main_wrap03{display: table; width: 100%; max-width: 1400px; margin-left: auto; margin-right: auto; margin-bottom: 100px;}
+    .main_wrap03 img{width:100%}
+    .main_wrap03 .left{display:table-cell; width:43.57%;vertical-align:top;}
+    .main_wrap03 .left div{position:relative;width:100%;height:0;padding-bottom:91.7%;}
+    .main_wrap03 .left iframe{position:absolute;top:0;bottom:0;left:0;right:0;width:100% !important; height:100% !important;}
+    .main_wrap03 .right{display: table; width: 100%; max-width: 1400px; margin-left: auto; margin-right: auto; margin-bottom: 100px;}
+    .main_wrap03 .right .right2{display:table;width:100%;}
+    .main_wrap03 .right .right2 p{display:table-cell;}
+#container .main_wrap04{padding:90px 0 200px 0;}
+    .main_wrap04 .innerWrap{position:relative;}
+    .main_wrap04 .innerWrap .img{position:absolute;top:-40px;right:100px;width:380px;z-index:1;}
+    .main_wrap04 dl{width:350px;padding-left:300px;}
+    .main_wrap04 dt{padding-bottom:20px;font-size:42px; font-family : "notokrB";color:#000;}
+    .main_wrap04 dd{line-height:26px;font-size:16px;}
+#container .main_wrap05{height:760px;background: #000;}
+    .main_wrap05 .innerWrap{padding:147px 0 30px;}
+    .main_wrap05 .sns{width:280px;position: absolute;top:600px;left:160px; text-align:center;}
+    .main_wrap05 .sns img{padding:0 10px;}
+
+/* insta */
+#instagramwrap:after{content:''; display:block; clear:both;}
+#instaPics {position: relative; display:block; width: 100%; text-align:left; }
+#instaPics:after{clear:both;display:block;content:'';}
+.insta-box { display:inline-block; position: relative; float:left; margin:0 10px 10px 0;  }
+.insta-box:nth-child(1){width:220px;position: absolute;top:-90px;left:220px}
+.insta-box:nth-child(2){width:280px;margin-top:140px;margin-left:160px;}
+.insta-box:nth-child(3){width:280px;}
+.insta-box:nth-child(4){width:280px;margin-top:34px;}
+.insta-box:nth-child(5){width:280px;margin-top:-30px;}
+.insta-box:nth-child(6){width:224px;position: absolute;top:326px;right:205px}
+.image-layer {  width: 100%; height:0; overflow:hidden;position:relative;padding-bottom:100%; background: #333;}
+.image-layer img {display:none;position: absolute;top: 0;left: 0;bottom: 0;right: 0; margin: auto; }
+.image-layer span {position: absolute;top: 0;left: 0;bottom: 0;right: 0; margin: auto; display:block;background-position:50% 50% ;background-size:cover ;background-repeat:no-repeat ;}
+.caption-layer { display: none; position: absolute; top: 0; background: #000000; height: 100%; width: 100%; box-sizing: border-box; font-size: 0.7em; color: #FFFFFF; }
+.caption-layer.on{display:block;}
+.caption-layer p.insta-caption{display:none; padding:10px; height:60%; overflow:hidden; }
+.insta-likes {display:none; padding:0 10px 0 0; float: right; }
