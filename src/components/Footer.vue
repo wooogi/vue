@@ -77,16 +77,6 @@
     .sns a:last-child {margin-right:0; margin-left: 14px;}
     .sns a:before {transition: all .2s;}
     .footMenu{text-align:left}
-    /*.sns a.blog:before {content:'';background:url(https://www.shinsegae.com/resources/site/img/common/footer/ico_snsBlog.png) no-repeat center / cover;width:16px;height:16px; display: inline-block;}
-    .sns a.blog:hover:before {content:'';background:url(https://www.shinsegae.com/resources/site/img/common/footer/ico_snsBlog_on.png) no-repeat center / cover;width:16px;height:16px; display: inline-block;}
-    .sns a.facebook:before {content:'';background:url(https://www.shinsegae.com/resources/site/img/common/footer/ico_snsFb.png) no-repeat center / cover;width:16px;height:16px; display: inline-block;}
-    .sns a.facebook:hover:before {content:'';background:url(https://www.shinsegae.com/resources/site/img/common/footer/ico_snsFb_on.png) no-repeat center / cover;width:16px;height:16px; display: inline-block;}
-    .sns a.insta:before {content:'';background:url(https://www.shinsegae.com/resources/site/img/common/footer/ico_snsInsta.png) no-repeat center / cover;width:16px;height:16px; display: inline-block;}
-    .sns a.insta:hover:before {content:'';background:url(https://www.shinsegae.com/resources/site/img/common/footer/ico_snsInsta_on.png) no-repeat center / cover;width:16px;height:16px; display: inline-block;}
-    .sns a.youtube:before {content:'';background:url(https://www.shinsegae.com/resources/site/img/common/footer/ico_snsYoutube.png) no-repeat center / cover;width:16px;height:16px; display: inline-block;}
-    .sns a.youtube:hover:before {content:'';background:url(https://www.shinsegae.com/resources/site/img/common/footer/ico_snsYoutube_on.png) no-repeat center / cover;width:16px;height:16px; display: inline-block;}
-    .sns a.sbot:before {content:'';background:url(https://www.shinsegae.com/img/common/footer/ico_snsSbot.png) no-repeat center / cover;width:16px;height:16px; display: inline-block;}
-    .sns a.sbot:hover:before {content:'';background:url(../img/common/footer/ico_snsSbot_on.png) no-repeat center / cover;width:16px;height:16px; display: inline-block;}*/
     #footer{min-width:1120px; }
     #footer .bottom{text-align:left;}
     #footer .sns{position:absolute; right:0px; top:0px}

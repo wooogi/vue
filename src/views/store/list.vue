@@ -1,15 +1,32 @@
 <template>
     <div id="STORE_COMMON_KEYVISUAL" class="gu_sub_kv">
-        <div class="bg" style="background:url('/upload/storeBase/1553506803597-10332.jpg') no-repeat center center; background-size:cover;"></div>
+        <bg />
+        <div class="contentsWrap">
+            <div class="contents">
+                <subgnb />
+                <div class>
+                    <pagetitle />
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
 <script>
+    import bg from '@/components/Bg.vue'
+    import subgnb from '@/components/SubGnb.vue'
+    import pagetitle from '@/components/Title.vue'
+
     export default {
-        name: "list"
+        components: {
+            bg,
+            subgnb,
+            pagetitle
+        }
     }
 </script>
 
 <style scoped>
-
+    .contentsWrap{position:relative; top:-156px}
+    .contents{width:1280px; margin:0 auto;}
 </style>
