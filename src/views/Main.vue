@@ -59,6 +59,7 @@
     .copy .info span{color: #222; font-size: 17px;}
     .eventList{margin-top:50px; text-align:center;}
     .eventList li{display:inline-block; width:31%; margin-bottom:30px; margin-left:3%; border:1px solid #8A8A8A}
+    .eventList li a{display:block;}
     .eventList li:nth-child(3n+1){margin-left:0}
 
 </style>
