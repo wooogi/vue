@@ -23,6 +23,11 @@ export default new Router({
       name: 'store',
       path: '/store/',
       component: () => import('./views/store/list.vue')
+    },
+    {
+      name: 'brand',
+          path: '/brand/',
+        component: () => import('./views/brand/List.vue')
     }
   ]
 })

@@ -4,7 +4,7 @@
         <div class="contentsWrap">
             <div class="contents">
                 <subgnb />
-                <div class>
+                <div class="titleArea">
                     <pagetitle />
                 </div>
             </div>
@@ -29,4 +29,6 @@
 <style scoped>
     .contentsWrap{position:relative; top:-156px}
     .contents{width:1280px; margin:0 auto;}
+    .titleArea{display:table-cell; height:328px; width:1280px; background:#f6f6f6; vertical-align:middle; }
+    h2{font-size:50px; font-weight:normal;}
 </style>
